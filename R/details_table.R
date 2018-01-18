@@ -1,4 +1,4 @@
-details.table <- function(show, SWCE, datos, params) {
+details.table <- function(show, SWCE, datos) {
   
   if(show == "pub") {
     if (nrow(datos) != 0) {
