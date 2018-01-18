@@ -1,4 +1,4 @@
-filters <- function(show, datos, params){
+filters <- function(show, datos){
   
   if(show == "pub") {
     df <- data.frame()
