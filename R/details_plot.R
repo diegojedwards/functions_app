@@ -1,4 +1,4 @@
-details.plot <- function(show, datos) {
+details.plot <- function(show, datos, params) {
     
     if(show == "pub") {
       ymax <- sum(table(datos$date))
